@@ -4,40 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/fondo"
+    android:background="@drawable/fondo"
     tools:context=".MainActivity">
 
-
-    <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="58dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
-    </ScrollView>
-
     <Button
-        android:id="@+id/button3"
-        android:layout_width="136dp"
-        android:layout_height="99dp"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/idPersonal"
+            android:layout_width="202dp"
+            android:layout_height="52dp"
+            android:layout_marginBottom="152dp"
+
+            android:text="@string/idpersonal"
+            app:cornerRadius ="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:backgroundTint="#656565"
+
+
+        />
+
+        <Button
+            android:id="@+id/idEstudiantes"
+            android:layout_width="207dp"
+            android:layout_height="52dp"
+            android:layout_marginBottom="32dp"
+            android:text="@string/Estudiantes"
+            app:layout_constraintBottom_toTopOf="@+id/idPersonal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.514"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.975"
+            app:cornerRadius ="20dp"
+            android:backgroundTint="#656565"
+
+
+            />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="227dp"
+        android:layout_height="258dp"
+        android:layout_marginTop="88dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/scrollView2" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/escudo" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="138dp"
-        android:layout_height="83dp"
-        android:text="Button"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Proyecto_2_Computo_m</string>
+    <string name="Estudiantes">Estudiantes</string>
+    <string name="idpersonal">Personal</string>
 </resources>
