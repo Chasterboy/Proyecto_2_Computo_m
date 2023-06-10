@@ -13,10 +13,10 @@
         android:theme="@style/Theme.Proyecto_2_Computo_m"
         tools:targetApi="31">
         <activity
-            android:name=".Lista_Personajes"
+            android:name=".view.activities.Lista_Personajes"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".view.activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

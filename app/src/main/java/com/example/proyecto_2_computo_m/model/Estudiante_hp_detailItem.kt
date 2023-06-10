@@ -1,12 +1,10 @@
 package com.example.proyecto_2_computo_m.model
 
 
-class Estudiante_hp : ArrayList<Estudiante_hpItem>()
-
-data class Estudiante_hpItem(
+data class Estudiante_hp_detailItem(
     val actor: String,
     val alive: Boolean,
-    val alternate_actors: List<String>,
+    val alternate_actors: List<Any>,
     val alternate_names: List<String>,
     val ancestry: String,
     val dateOfBirth: String,
@@ -25,11 +23,4 @@ data class Estudiante_hpItem(
     val wizard: Boolean,
     val yearOfBirth: Int
 )
-
-data class Wand(
-    val core: String,
-    val length: Double,
-    val wood: String
-)
-
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Lista_Personajes">
+    tools:context=".view.activities.Lista_Personajes">
 
     <ListView
         android:id="@+id/listView"
